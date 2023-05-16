@@ -9,7 +9,7 @@ function App() {
 
   const startTest = () => {
     const screen = document.getElementById("screen");
-    const result = document.getElementById("reuslt");
+    const result = document.getElementById("result");
 
     if (screen.className === "waiting") {
       screen.className = "ready";
@@ -33,7 +33,7 @@ function App() {
       <div id="screen" className="waiting" onClick={startTest}>
         클릭해서 시작하세요
       </div>
-      <h1 id="reuslt"></h1>
+      <h1 id="result"></h1>
     </>
   );
 }

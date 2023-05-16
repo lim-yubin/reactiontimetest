@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding: 100px 20px 100px 20px;
 }
 #screen {
   width: 400px;
@@ -25,4 +25,8 @@ body {
 }
 #screen.now {
   background-color: greenyellow;
+}
+
+#result {
+  height: 100px;
 }
