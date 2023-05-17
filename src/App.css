@@ -8,6 +8,7 @@ body {
 #screen {
   width: 400px;
   height: 300px;
+  border-radius: 10px;
   text-align: center;
   user-select: none;
   display: flex;
@@ -17,14 +18,14 @@ body {
   font-size: 20px;
 }
 #screen.waiting {
-  background-color: aqua;
+  background-color: rgb(199, 255, 255);
 }
 #screen.ready {
-  background-color: red;
+  background-color: rgb(243, 168, 168);
   color: white;
 }
 #screen.now {
-  background-color: greenyellow;
+  background-color: rgb(128, 214, 143);
 }
 
 #result {
